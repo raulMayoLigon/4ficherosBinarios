@@ -156,4 +156,5 @@ void volcar (char nombreFicheroOrigen [], char nombreFicheroDestino []) {
         printf("Error... de apertura."); return;
     }
     
+    
 }
