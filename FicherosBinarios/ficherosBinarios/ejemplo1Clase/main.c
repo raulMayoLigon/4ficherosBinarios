@@ -185,6 +185,5 @@ void volcar (char nombreFicheroOrigen[], char nombreFicheroDestino []) {
     }
     
     fclose(fOrigen); fclose(fDestino);
-    
-    int x;
+
 }
