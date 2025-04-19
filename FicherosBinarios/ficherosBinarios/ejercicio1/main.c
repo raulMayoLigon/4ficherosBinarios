@@ -12,7 +12,7 @@ int main (void) {
     //Crear y guardar el número en el fichero:
     
     //1.Pedir número al usuario
-    printf("Introduce el valor de x:"); scanf("%d", &x);
+    printf("Introduce el valor de x: "); scanf("%d", &x);
         
     //2.Abrir fichero modo escritura
     f = fopen("numero.dat", "wb");
