@@ -10,7 +10,7 @@ int main (void) {
     printf("Introduce los valores del array, hasta 10, \n(cuando quieras terminar escribe -1).\n\n");
     
     for (i=0; i<10; i++) {
-        printf("-Introduce un valor para el número %d: ", i);
+        printf("-Introduce un valor para el número %d: ", i+1);
         scanf("%d", &array[i]);
         
         if (array[i] == -1) {
