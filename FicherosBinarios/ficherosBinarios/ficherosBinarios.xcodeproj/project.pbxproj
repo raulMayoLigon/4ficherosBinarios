@@ -34,6 +34,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		E242E36B2DB4143500BF8B39 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E2BA5AD32DB39BEE004F8013 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,6 +85,7 @@
 		E2279AE82DB2938A00B31B58 /* ficherosBinarios */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ficherosBinarios; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2279AF62DB293B200B31B58 /* ejemplo1Clase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ejemplo1Clase; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2279B012DB293D500B31B58 /* ejemplo2Clase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ejemplo2Clase; sourceTree = BUILT_PRODUCTS_DIR; };
+		E242E36D2DB4143500BF8B39 /* ejercicio5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ejercicio5; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BA5AD52DB39BEE004F8013 /* ejercicio1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ejercicio1; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BA5AE02DB3A53A004F8013 /* ejercicio2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ejercicio2; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BA5AE72DB3A6F5004F8013 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
@@ -97,6 +107,11 @@
 		E2279B022DB293D500B31B58 /* ejemplo2Clase */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ejemplo2Clase;
+			sourceTree = "<group>";
+		};
+		E242E36E2DB4143500BF8B39 /* ejercicio5 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ejercicio5;
 			sourceTree = "<group>";
 		};
 		E2BA5AD62DB39BEE004F8013 /* ejercicio1 */ = {
@@ -137,6 +152,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E2279AFE2DB293D500B31B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E242E36A2DB4143500BF8B39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -185,6 +207,7 @@
 				E2BA5AE12DB3A53A004F8013 /* ejercicio2 */,
 				E2DCA60E2DB3B9DA001B97B8 /* ejercicio3 */,
 				E2DCA6192DB3D074001B97B8 /* ejercicio4 */,
+				E242E36E2DB4143500BF8B39 /* ejercicio5 */,
 				E2279AE92DB2938A00B31B58 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -199,6 +222,7 @@
 				E2BA5AE02DB3A53A004F8013 /* ejercicio2 */,
 				E2DCA60D2DB3B9DA001B97B8 /* ejercicio3 */,
 				E2DCA6182DB3D074001B97B8 /* ejercicio4 */,
+				E242E36D2DB4143500BF8B39 /* ejercicio5 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,6 +294,28 @@
 			);
 			productName = ejemplo2Clase;
 			productReference = E2279B012DB293D500B31B58 /* ejemplo2Clase */;
+			productType = "com.apple.product-type.tool";
+		};
+		E242E36C2DB4143500BF8B39 /* ejercicio5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E242E3732DB4143500BF8B39 /* Build configuration list for PBXNativeTarget "ejercicio5" */;
+			buildPhases = (
+				E242E3692DB4143500BF8B39 /* Sources */,
+				E242E36A2DB4143500BF8B39 /* Frameworks */,
+				E242E36B2DB4143500BF8B39 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E242E36E2DB4143500BF8B39 /* ejercicio5 */,
+			);
+			name = ejercicio5;
+			packageProductDependencies = (
+			);
+			productName = ejercicio5;
+			productReference = E242E36D2DB4143500BF8B39 /* ejercicio5 */;
 			productType = "com.apple.product-type.tool";
 		};
 		E2BA5AD42DB39BEE004F8013 /* ejercicio1 */ = {
@@ -378,6 +424,9 @@
 					E2279B002DB293D500B31B58 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					E242E36C2DB4143500BF8B39 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					E2BA5AD42DB39BEE004F8013 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -413,6 +462,7 @@
 				E2BA5ADF2DB3A53A004F8013 /* ejercicio2 */,
 				E2DCA60C2DB3B9DA001B97B8 /* ejercicio3 */,
 				E2DCA6172DB3D074001B97B8 /* ejercicio4 */,
+				E242E36C2DB4143500BF8B39 /* ejercicio5 */,
 			);
 		};
 /* End PBXProject section */
@@ -433,6 +483,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E2279AFD2DB293D500B31B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E242E3692DB4143500BF8B39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -633,6 +690,22 @@
 			};
 			name = Release;
 		};
+		E242E3712DB4143500BF8B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E242E3722DB4143500BF8B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E2BA5AD92DB39BEE004F8013 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -732,6 +805,15 @@
 			buildConfigurations = (
 				E2279B062DB293D500B31B58 /* Debug */,
 				E2279B072DB293D500B31B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E242E3732DB4143500BF8B39 /* Build configuration list for PBXNativeTarget "ejercicio5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E242E3712DB4143500BF8B39 /* Debug */,
+				E242E3722DB4143500BF8B39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
