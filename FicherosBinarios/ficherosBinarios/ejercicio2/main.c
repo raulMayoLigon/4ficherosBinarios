@@ -19,7 +19,7 @@ int main (void) {
         cantidadValores++; //Solo si no es menos 1
     }
     
-    f = fopen("numeros.dat", "wb");
+    f = fopen("/Users/toni/Desktop/numeros.dat", "wb");
     if (f == NULL) {
         printf("Error de apertura...\n"); return 1;
     }
@@ -30,7 +30,7 @@ int main (void) {
     
     printf("Se guardaron %d en el fichero.\n", cantidadValores);
     
-    f = fopen("numeros.dat", "rb");
+    f = fopen("/Users/toni/Desktop/numeros.dat", "rb");
     if (f == NULL) {
         printf("Error de apertura...\n"); return 1;
     }
