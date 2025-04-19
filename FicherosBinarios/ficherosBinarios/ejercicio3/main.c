@@ -40,7 +40,5 @@ int main (void) {
     
     fclose(f);
     
-    
-    
     return 0;
 }
